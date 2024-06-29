@@ -1,8 +1,8 @@
 import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
-import BannerImage from "../Assets/home-banner-image.png";
+import BannerImage from "../Assets/black_tigerdance.png";
 import Navbar from "./Navbar";
-import { FiArrowRight } from "react-icons/fi";
+import { FiArrowDown } from "react-icons/fi";
 
 const Home = () => {
   return (
@@ -14,14 +14,13 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
+          Explore hidden gems of <b>Mangaluru</b> with us.
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+            Where pristine beaches meet cultural heritage and modern vibrance.
           </p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Scroll Down <FiArrowDown />{" "}
           </button>
         </div>
         <div className="home-image-section">
